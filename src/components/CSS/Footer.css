@@ -1,0 +1,77 @@
+/* src/CSS/Footer.css */
+.footer {
+    background: #222;
+    color: #fff;
+    padding: 5px 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 5px;
+    flex-wrap: wrap; /* Allows wrapping on small screens */
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 5px;
+    /* box-sizing: border-box; */
+    text-align: center; /* Centers the text in each section */
+  }
+  
+  .social-icons ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons ul li {
+    margin: 0 5px;
+  }
+  
+  .social-icons ul li a {
+    color: #fff; /* Sets the color of the icons to white */
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons ul li a:hover {
+    color: #bbb; /* Sets the color on hover to a lighter shade */
+  }
+
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column; /* Stacks the sections vertically */
+      align-items: center;   /* Centers the sections horizontally */
+    }
+  
+    .footer-section {
+      width: 100%; /* Ensures full width for each section */
+      margin-bottom: 5px; /* Adds space between sections */
+    }
+
+    .text-content {
+        font-size: 12px;
+    }
+
+    .social-icons ul li a {
+        font-size:20px;
+    }
+
+  }
+
+  @media (max-width: 480px) {
+
+    .text-content {
+        font-size:10px;
+    }
+
+    .social-icons ul li a {
+        font-size:16px;
+    }
+  }
+  
