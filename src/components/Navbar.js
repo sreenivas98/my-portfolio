@@ -17,9 +17,15 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <nav className="navbar">
-      <div className="navbar-logo">SSRK</div>
+      <Link className="navbar-logo-link" to="/">
+        <div className="navbar-logo">SSRK</div>
+      </Link>
       <div className="navbar-burger" onClick={toggleMenu}>
         <div className="burger-line"></div>
         <div className="burger-line"></div>
@@ -27,22 +33,22 @@ const Navbar = () => {
       </div>
       <ul className={`navbar-links ${isOpen ? 'open' : ''}`}>
         <li>
-          <Link to="/">
+          <Link to="/" onClick={closeMenu}>
             <AiOutlineHome className="navbar-icon" /> Home
           </Link>
         </li>
         <li>
-          <Link to="/">
+          <Link to="/" onClick={closeMenu}>
             <AiOutlineUser className="navbar-icon" /> About
           </Link>
         </li>
         <li>
-          <Link to="/">
+          <Link to="/Projects" onClick={closeMenu}>
             <AiOutlineFundProjectionScreen className="navbar-icon" /> Projects
           </Link>
         </li>
         <li>
-          <Link to="/">
+          <Link to="/" onClick={closeMenu}>
             <CgFileDocument className="navbar-icon" /> Resume
           </Link>
         </li>
