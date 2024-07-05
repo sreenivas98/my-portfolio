@@ -2,24 +2,28 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Resume from './components/Resume';
+
 import './App.css';
+
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (
-    <>
-    <Router>
-      <div className="App">
-        <Navbar />
-        {/* <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes> */}
-      </div>
-    </Router>
-    <Footer/>
-    </>
+    <div className="App">
+      <Router>
+          <Navbar className="header"/>
+          <main className="content">
+            <Routes>
+              {/* <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} /> */}
+              <Route path="/Projects" element={<Projects />} />
+              <Route path="/Resume" element={<Resume />} />
+            </Routes>
+          </main>
+      </Router>
+      <Footer className="footer"/>
+    </div>
   );
 }
 
