@@ -48,7 +48,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/" onClick={closeMenu}>
+          <Link to="/Resume" onClick={closeMenu}>
             <CgFileDocument className="navbar-icon" /> Resume
           </Link>
         </li>

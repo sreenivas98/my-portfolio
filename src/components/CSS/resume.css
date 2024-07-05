@@ -1,0 +1,36 @@
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Sufficient gap between elements */
+    margin-top: 20px; /* Gap from the top navbar */
+    margin-bottom: 20px; /* Gap from the footer */
+  }
+  
+  .resume a {
+    text-decoration: none;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Minute gap between the download icon and text */
+    padding: 10px 20px; /* Padding for the button */
+    border: none;
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Button text color */
+    font-size: 16px; /* Button text size */
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners for the button */
+    text-decoration: none;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  
+  .resume-img {
+    max-width: 80%; /* Resize the image to fit within the page */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  
