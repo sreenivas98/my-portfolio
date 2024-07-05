@@ -1,38 +1,26 @@
+/* Ensure the body and html take up the full height of the viewport */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the main container to use flexbox and fill the full height */
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+/* Ensure the main content has enough top margin to account for the fixed navbar */
+.content {
+  flex: 1;
+  margin-top: 60px; /* Adjust to the height of your navbar */
+  padding: 16px;
+  background-image:linear-gradient(to top, rgb(28, 11, 63), rgb(50, 22, 105))
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Style the footer */
+.footer {
+  padding-top: 16px; 
 }
