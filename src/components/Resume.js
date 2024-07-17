@@ -4,8 +4,6 @@ import { FaDownload } from "react-icons/fa";
 import './CSS/resume.css'
 
 const Resume = () => {
-  
-
   return (
     <div className="resume">
       <a href={resumePdf} download="Sreenivas_Resume.pdf">
