@@ -23,6 +23,10 @@
   font-size: 2rem;
 }
 
+.navbar-logo:hover {
+  color:rgb(149, 197, 201);
+}
+
 .navbar-links {
   display: flex;
   list-style: none;
