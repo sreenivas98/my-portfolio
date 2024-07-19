@@ -17,7 +17,12 @@ html, body {
   flex: 1;
   margin-top: 60px; /* Adjust to the height of your navbar */
   padding: 16px;
-  background-image:linear-gradient(to top, rgb(28, 11, 63), rgb(50, 22, 105))
+  /* background-image:linear-gradient(to top, rgb(28, 11, 63), rgb(50, 22, 105)) */
+  background-image: url('./Assets/Background.jpg');
+  background-size: cover; /* Ensure the image covers the whole screen */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Fix the image in place */
 }
 
 /* Style the footer */
