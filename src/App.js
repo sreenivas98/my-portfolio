@@ -2,11 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Projects from './components/projects/Projects';
 import Resume from './components/Resume';
-
 import './App.css';
 
-import Projects from './components/Projects/Projects';
 
 function App() {
   return (
