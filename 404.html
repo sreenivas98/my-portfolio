@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=/my-portfolio" />
-    <script>
-      // Redirect to the root
-      window.location.href = "/my-portfolio/";
-    </script>
+    <meta http-equiv="refresh" content="0; url=/" />
   </head>
   <body>
+    <script>
+      // Redirect to the home page if a 404 error occurs
+      var url = window.location.pathname;
+      if (url !== '/' && url !== '/index.html') {
+        window.location.href = url;
+      }
+    </script>
   </body>
 </html>
