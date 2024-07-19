@@ -1,0 +1,37 @@
+name: Build and Deploy React App
+
+on:
+  push:
+    branches:
+      - main
+    # The `pull_request` event triggers the workflow when a PR is merged.
+    # Ensure your main branch is the one used to deploy.
+    # If using a different branch, update accordingly.
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'  # or whichever version you are using
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy
+        run: |
+          # Add your deployment command here
+          # Example for deploying to GitHub Pages:
+          npm install -g gh-pages
+          gh-pages -d build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Necessary for deploying to GitHub Pages
