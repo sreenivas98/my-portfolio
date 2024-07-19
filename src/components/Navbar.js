@@ -33,22 +33,22 @@ const Navbar = () => {
       </div>
       <ul className={`navbar-links ${isOpen ? 'open' : ''}`}>
         <li>
-          <Link to="/my-portfolio" onClick={closeMenu}>
+          <Link to="/" onClick={closeMenu}>
             <AiOutlineHome className="navbar-icon" /> Home
           </Link>
         </li>
         <li>
-          <Link to="/my-portfolio" onClick={closeMenu}>
+          <Link to="/" onClick={closeMenu}>
             <AiOutlineUser className="navbar-icon" /> About
           </Link>
         </li>
         <li>
-          <Link to="/my-portfolio/Projects" onClick={closeMenu}>
+          <Link to="/Projects" onClick={closeMenu}>
             <AiOutlineFundProjectionScreen className="navbar-icon" /> Projects
           </Link>
         </li>
         <li>
-          <Link to="/my-portfolio/Resume" onClick={closeMenu}>
+          <Link to="/Resume" onClick={closeMenu}>
             <CgFileDocument className="navbar-icon" /> Resume
           </Link>
         </li>
