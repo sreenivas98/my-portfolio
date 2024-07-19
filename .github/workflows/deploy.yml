@@ -1,12 +1,12 @@
-name: Build and Deploy React App
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # Trigger the workflow on pushes to the `main` branch
+      - main
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,14 +24,8 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Configure Git
-        run: |
-          git config --global user.name "sreenivas98"
-          git config --global user.email "srivatsava.sai@gmail.com"
-
       - name: Deploy
-        run: |
-          npm install -g gh-pages
-          gh-pages -d build -b gh-pages
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
