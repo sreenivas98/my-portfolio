@@ -56,6 +56,7 @@ const Projects = () => {
           description="This responsive portfolio page, created with React.js, HTML, and CSS, provides an interactive single-page application experience. It consists of three main sections: Nav, Main, and Footer. The Navbar includes links to Home, About, Projects, and Resume. The Main section dynamically displays the corresponding content based on the selected navigation link. The Footer, along with the Home section, offers links for following and contacting via GitHub, Instagram, LinkedIn, and email, alongside copyright information, ensuring comprehensive engagement and connectivity."
           techStack="React JS, HTML, CSS, VS Code, GitHub"
           github="https://github.com/sreenivas98/my-portfolio"
+          demo="https://sreenivas98.github.io/"
         />
         <ProjectCard
           title="Little Lemon Landing Page"
