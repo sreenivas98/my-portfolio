@@ -61,7 +61,7 @@ const Projects = () => {
         <ProjectCard
           title="Little Lemon Landing Page"
           image={Project2}
-          description="The Little Lemon website informs visitors about its authentic Indian and Italian cuisine. It includes a logo and a menu with Home, Menu, Book, and About sections (some links may not work). A promotional banner advertises a 25% discount with a promo code (added rainbow effect on the text shadow). The articles cover the new menu, booking options, and hours. The About section describes the restaurant's focus, location, and links to social media. The footer has copyright info. The main focus of this page is to show responsive design."
+          description="The Little Lemon website informs visitors about its authentic Indian and Italian cuisine. It includes a logo and a menu with Home, Menu, Book, and About sections (some links may not work). A promotional banner advertises a 25% discount with a promo code (added animation - rainbow effect on the text shadow on text in promotional banner). The articles cover the new menu, booking options, and hours. The About section describes the restaurant's focus, location, and links to social media. The footer has copyright info. The main focus of this page is to show responsive design."
           techStack="HTML, CSS, Git, VS Code, GitHub"
           github="https://github.com/sreenivas98/"
           demo="https://sreenivas98.github.io/Little_Lemon/"
