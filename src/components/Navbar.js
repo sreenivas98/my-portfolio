@@ -38,7 +38,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/" onClick={closeMenu}>
+          <Link to="/about" onClick={closeMenu}>
             <AiOutlineUser className="navbar-icon" /> About
           </Link>
         </li>

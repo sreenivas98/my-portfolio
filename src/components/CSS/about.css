@@ -1,0 +1,19 @@
+/* about.css */
+body, html {
+    margin: 0;
+    height: 100%;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    height: 50vh
+  }
+  
+  .msg-text {
+    text-align: center;
+    font-size: 2rem;
+    color: #c3fdff; /* You can adjust the color as needed */
+  }
+  
