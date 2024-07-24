@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.0045938e.css",
-    "main.js": "/my-portfolio/static/js/main.119e32af.js",
+    "main.js": "/my-portfolio/static/js/main.d1558840.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
-    "static/media/Resume.jpg": "/my-portfolio/static/media/Resume.2e1ccc774203091f4d0b.jpg",
+    "static/media/Resume.jpg": "/my-portfolio/static/media/Resume.b155245c053be91681a1.jpg",
     "static/media/Project1.png": "/my-portfolio/static/media/Project1.df89cedaa3b5396c7310.png",
     "static/media/Project2.png": "/my-portfolio/static/media/Project2.bd957235e6ab09dbf907.png",
     "static/media/Background.jpg": "/my-portfolio/static/media/Background.045f6e2235c8bf2f06b5.jpg",
     "static/media/Project3.png": "/my-portfolio/static/media/Project3.9091f8a9ed56a093af59.png",
     "static/media/windows.png": "/my-portfolio/static/media/windows.91dcb2a052388d311f27.png",
-    "static/media/Resume.pdf": "/my-portfolio/static/media/Resume.9e5d7da84ecc7beb32dd.pdf",
+    "static/media/Resume.pdf": "/my-portfolio/static/media/Resume.f4eae3f031c5a86c1ff9.pdf",
     "static/media/Project4.png": "/my-portfolio/static/media/Project4.548dcd4e44cd66cddf62.png",
     "static/media/VSCode.png": "/my-portfolio/static/media/VSCode.857643fbeb9a97d12171.png",
     "static/media/IOS.png": "/my-portfolio/static/media/IOS.ea0a5d5c4b3460f561a8.png",
@@ -20,11 +20,11 @@
     "static/media/slick.woff": "/my-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/my-portfolio/index.html",
     "main.0045938e.css.map": "/my-portfolio/static/css/main.0045938e.css.map",
-    "main.119e32af.js.map": "/my-portfolio/static/js/main.119e32af.js.map",
+    "main.d1558840.js.map": "/my-portfolio/static/js/main.d1558840.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0045938e.css",
-    "static/js/main.119e32af.js"
+    "static/js/main.d1558840.js"
   ]
 }
