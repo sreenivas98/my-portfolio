@@ -5,6 +5,7 @@
     align-items: center; /* Align items vertically in the center of the container */
     justify-content: center; /* Center items horizontally in the container */
     gap: 10%;
+    height: auto !important;
 }
 
 .intro-text {
@@ -140,7 +141,6 @@
     .home-img-top, .profile-pic {
         height: 250px; /* Reduce size to prevent overlap */
         width: 250px;
-        margin-bottom: 40px; /* Adjust margin to separate from text */
     }
 
     .social-icons {
