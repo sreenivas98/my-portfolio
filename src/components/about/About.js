@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="about-container">
         <p className="msg-text">
-            Page under construction. Feel free to check out My skill set and tolls I use below and Home, Projects and Resume pages using the Navbar.
+            Page under construction. Feel free to check out My skill set and tools I use below and Home, Projects and Resume pages using the Navbar.
         </p>  
         <TechStack/>
         <ToolStack/>        
