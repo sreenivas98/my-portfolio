@@ -1,11 +1,15 @@
 import '../CSS/about.css';
+import TechStack from './TechStack';
+import ToolStack from './ToolStack';
 
 const Home = () => {
   return (
-    <div className="container">
+    <div className="about-container">
         <p className="msg-text">
-            Page under construction. Feel free to check out Home, Projects and Resume pages.
-        </p>          
+            Page under construction. Feel free to check out My skill set and tolls I use below and Home, Projects and Resume pages using the Navbar.
+        </p>  
+        <TechStack/>
+        <ToolStack/>        
     </div>
   );
 };
