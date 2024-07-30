@@ -4,11 +4,12 @@ body, html {
     height: 100%;
   }
   
-  .container {
+  .about-container {
     display: flex;
+    flex-direction: column;
     align-items: center; /* Center content vertically */
     justify-content: center; /* Center content horizontally */
-    height: 50vh
+    height: auto !important;
   }
   
   .msg-text {
