@@ -17,7 +17,7 @@ import Confluence from '../../Assets/toolStack/Confluence.png';
 const ToolStack = () => {
   return (
     <div className="stack-container">
-      <p className="stack-heading"><strong className="strong-text">Tools</strong> I use</p>
+      <p className="stack-heading"><strong className="strong-text">TOOLS</strong> I USE</p>
       <div className="stack">
         <IconCard
           imageSrc={Windows}
