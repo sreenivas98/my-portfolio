@@ -46,7 +46,7 @@ const Projects = () => {
 
   return (
     <div>
-      <p className="page-title">My Recent Projects</p>
+      <p className="page-title">MY RECENT PROJECTS</p>
       <p className="page-info">Here are some of my recent projects that I have worked on.</p>
       <p className="meme-effect">Don't mind the added animation—it's just the website doing its disco dance routine!</p>
       <Slider  {...settings}>
@@ -82,7 +82,7 @@ const Projects = () => {
           github="https://github.com/sreenivas98/react-calculator"
         />
       </Slider>
-      <p className="common-tools">Common Tools Used</p>
+      <p className="common-tools">COMMON TOOLS USED</p>
       <div className="tool-stack">
         <IconCard
           imageSrc={Windows}

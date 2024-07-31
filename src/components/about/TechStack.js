@@ -25,7 +25,7 @@ import AWS from '../../Assets/techStack/AWS.png';
 const TechStack = () => {
   return (
     <div className="stack-container">
-      <p className="stack-heading">Professional <strong className="strong-text">Skill set</strong></p>
+      <p className="stack-heading">PROFESSIONAL <strong className="strong-text">SKILL SET</strong></p>
       <div className="stack">
         <IconCard
           imageSrc={Java}
