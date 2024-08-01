@@ -81,9 +81,6 @@
     font-size: 1.2rem;
     font-weight: bolder;
     font-family: 'Courier New', Courier, monospace;
-}
-
-.summary {
     max-width: 768px;
 }
 
@@ -92,7 +89,7 @@
     width: 300px;
     object-fit: cover;
     border-radius: 50%;
-    margin-bottom: 30px;
+    Margin: auto 0px auto 0px;
 }
 
 .contact-header {
