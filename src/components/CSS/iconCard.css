@@ -10,7 +10,7 @@
     border-radius: 8px;
     padding: 16px;
     text-align: center;
-    background-color: rgb(233, 224, 196);
+    background-color: rgba(233, 224, 196, 0.767);
     transition: transform 0.3s ease;
     margin: 10px;
   }
