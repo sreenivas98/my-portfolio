@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.05295f8b.css",
-    "main.js": "/my-portfolio/static/js/main.1e5def0c.js",
+    "main.js": "/my-portfolio/static/js/main.c5007783.js",
     "static/js/453.41811d64.chunk.js": "/my-portfolio/static/js/453.41811d64.chunk.js",
     "static/media/profilePic.png": "/my-portfolio/static/media/profilePic.b1bf592ba80cb6b477a7.png",
-    "static/media/Resume.jpg": "/my-portfolio/static/media/Resume.2c4e59a0aa601902b09d.jpg",
     "static/media/Project1.png": "/my-portfolio/static/media/Project1.df89cedaa3b5396c7310.png",
+    "static/media/Resume.jpg": "/my-portfolio/static/media/Resume.c0898fdc3d5f7758ba19.jpg",
     "static/media/Project2.png": "/my-portfolio/static/media/Project2.bd957235e6ab09dbf907.png",
     "static/media/Background.jpg": "/my-portfolio/static/media/Background.045f6e2235c8bf2f06b5.jpg",
     "static/media/React.png": "/my-portfolio/static/media/React.d1f9610dd01b08e694b8.png",
@@ -13,6 +13,7 @@
     "static/media/CSS.png": "/my-portfolio/static/media/CSS.8d554eeffaf76b883833.png",
     "static/media/Rest.png": "/my-portfolio/static/media/Rest.42f862cc9155eb2c5de8.png",
     "static/media/Json.png": "/my-portfolio/static/media/Json.09d73a469e97750faa51.png",
+    "static/media/Resume.pdf": "/my-portfolio/static/media/Resume.e9fdcf89f737a9073b97.pdf",
     "static/media/Project3.png": "/my-portfolio/static/media/Project3.9091f8a9ed56a093af59.png",
     "static/media/AWS.png": "/my-portfolio/static/media/AWS.664297a88dd8ce2a54a1.png",
     "static/media/homeImg.png": "/my-portfolio/static/media/homeImg.19a501464c6d606a725a.png",
@@ -23,7 +24,6 @@
     "static/media/Microservices.png": "/my-portfolio/static/media/Microservices.83e5e37e0be7cbd6a88b.png",
     "static/media/Python.png": "/my-portfolio/static/media/Python.11344003cd85b7c7aba5.png",
     "static/media/Git.png": "/my-portfolio/static/media/Git.d85c79257cef74d66971.png",
-    "static/media/Resume.pdf": "/my-portfolio/static/media/Resume.d6112b7fa1e84f9a41a3.pdf",
     "static/media/Confluence.png": "/my-portfolio/static/media/Confluence.c3be351b2f66740d2516.png",
     "static/media/Slack.png": "/my-portfolio/static/media/Slack.1a9ba62a6290fc0a201a.png",
     "static/media/Teams.png": "/my-portfolio/static/media/Teams.1b880a4e3be744ae68d1.png",
@@ -46,11 +46,11 @@
     "static/media/slick.woff": "/my-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/my-portfolio/index.html",
     "main.05295f8b.css.map": "/my-portfolio/static/css/main.05295f8b.css.map",
-    "main.1e5def0c.js.map": "/my-portfolio/static/js/main.1e5def0c.js.map",
+    "main.c5007783.js.map": "/my-portfolio/static/js/main.c5007783.js.map",
     "453.41811d64.chunk.js.map": "/my-portfolio/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.05295f8b.css",
-    "static/js/main.1e5def0c.js"
+    "static/js/main.c5007783.js"
   ]
 }
