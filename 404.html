@@ -1,0 +1,16 @@
+<!-- public/404.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url=/my-portfolio/" />
+    <script>
+      // Handle redirect for client-side routing
+      var url = window.location.pathname;
+      if (url !== '/my-portfolio/' && url !== '/index.html') {
+        window.location.replace(url);
+      }
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
