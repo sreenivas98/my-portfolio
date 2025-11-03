@@ -4,16 +4,51 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     border: 1px solid #c5eebba6;
     border-radius: 8px;
-    padding: 16px;
+    padding: 20px 18px;
     text-align: center;
     background-color: rgba(233, 224, 196, 0.767);
     transition: transform 0.3s ease;
-    margin: 10px;
+  margin: 10px;
   }
+
+.icon-card--badge {
+    width: 260px;
+    height: 260px;
+    padding: 28px 24px;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.icon-card--badge .icon-card-image {
+    height: 200px;
+}
+
+.icon-card--badge .icon-card-image img {
+    padding-top: 0;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.icon-card--badge .icon-card-vector {
+    font-size: 200px;
+}
+
+.icon-card--badge .icon-card-content {
+    display: none;
+}
+
+.icon-card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+}
   
 .icon-card:hover {
     transform: scale(1.1);
@@ -21,9 +56,14 @@
   
   .icon-card-image img {
     padding-top:5px;
-    max-width: 70px;
-    max-height: 70px;
+    max-width: 90px;
+    max-height: 90px;
   }
+
+.icon-card-vector {
+    font-size: 82px;
+    color: rgb(51, 3, 3);
+}
   
   .icon-card-content {
     display: flex;
@@ -39,15 +79,42 @@
   
 @media (Max-width: 500px) {
 
-  .icon-card {
-    width:75px;
-    height:75px;
+.icon-card {
+    width:110px;
+    height:110px;
+  }
+
+  .icon-card-image {
+    height: 70px;
   }
 
   .icon-card-image img {
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 70px;
+    max-height: 70px;
   }
+
+.icon-card--badge {
+    width: 220px;
+    height: 220px;
+    padding: 24px 20px;
+}
+
+.icon-card--badge .icon-card-image {
+    height: 180px;
+}
+
+.icon-card--badge .icon-card-image img {
+    max-width: 180px;
+    max-height: 180px;
+}
+
+.icon-card--badge .icon-card-vector {
+    font-size: 160px;
+}
+
+.icon-card-vector {
+    font-size: 60px;
+}
 
   .icon-card-description {
     font-size: 12px;

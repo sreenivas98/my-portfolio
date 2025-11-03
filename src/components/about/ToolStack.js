@@ -8,16 +8,13 @@ import VScode from '../../Assets/toolStack/VSCode.png';
 import Eclipse from '../../Assets/toolStack/Eclipse.png';
 import Netbeans from '../../Assets/toolStack/Netbeans.png';
 import Postman from '../../Assets/toolStack/Postman.png';
-import Github from '../../Assets/toolStack/github.png';
 import Teams from '../../Assets/toolStack/Teams.png';
 import Slack from '../../Assets/toolStack/Slack.png';
-import Jira from '../../Assets/toolStack/Jira.png';
-import Confluence from '../../Assets/toolStack/Confluence.png';
 
 const ToolStack = () => {
   return (
     <div className="stack-container">
-      <p className="stack-heading"><strong className="strong-text">TOOLS</strong> I USE</p>
+      <p className="stack-heading"><strong className="strong-text">TOOLS</strong></p>
       <div className="stack">
         <IconCard
           imageSrc={Windows}
@@ -40,24 +37,12 @@ const ToolStack = () => {
           description="Postman"
         />
         <IconCard
-          imageSrc={Github}
-          description="GitHub"
-        />
-        <IconCard
           imageSrc={Teams}
           description="Microsoft Teams"
         />
         <IconCard
           imageSrc={Slack}
           description="Slack"
-        />
-        <IconCard
-          imageSrc={Jira}
-          description="Jira"
-        />
-        <IconCard
-          imageSrc={Confluence}
-          description="Confluence"
         />
       </div>
     </div>
